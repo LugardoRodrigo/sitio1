@@ -13,6 +13,10 @@ app.get('/about',(req,res)=>{
     res.render("about",{titulo:'Título del about'});
 });
 
+app.get('/servicios',(req,res)=>{
+    res.render("servicios",{titulo:'Título de servicios'});
+});
+
 
 const port=process.env.PORT || 3000;
 
